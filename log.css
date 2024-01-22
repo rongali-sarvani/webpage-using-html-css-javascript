@@ -1,0 +1,31 @@
+h2
+{
+    color:white;
+    background-color:rgb(158, 171, 166);
+}
+.t1
+{
+    margin-left:200px;
+    margin-right:200px;
+    border-radius:10px;
+    border-color:rgb(224, 173, 157);
+    background-color:antiquewhite;
+}
+
+.t2
+{
+   background-color:rgb(41, 170, 41);
+   border-color:rgb(57, 157, 57);
+   border-radius:5px;
+   
+}
+body
+{
+ margin-top:150px;
+}
+.t4
+{
+    background-color: crimson;
+    color: gold;
+    border-radius:5px;
+}

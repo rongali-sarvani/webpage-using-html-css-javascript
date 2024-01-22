@@ -1,0 +1,40 @@
+.t1
+{
+    border:2px solid rgb(146, 125, 167);
+    margin-left: 400px;
+    margin-right: 400px;
+    border-bottom: 0ch;
+    background-color: rgb(229, 224, 235);
+    
+}
+
+.t2
+{
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: rgb(229, 224, 235);
+    border:2px solid rgb(146, 125, 167);
+}
+.t3
+{
+    color: rgb(157, 97, 179);
+    border:2px solid rgb(146, 125, 167);
+    background-color: white;
+    
+}
+.t5
+{
+    background-color:rgb(240, 47, 13);
+    border: 20px rgb(240, 47, 13);
+    border-radius:5px;
+    color: gold;
+    
+}
+.t4
+{
+    background-color:rgb(23, 100, 34);
+    border: 20px rgb(17, 56, 23);
+    border-radius:5px;
+    color: gold;
+    
+}

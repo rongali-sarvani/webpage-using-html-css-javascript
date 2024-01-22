@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eecece;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.restaurant-container
+{
+    background-color: #ed9e9e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color:rgb(70, 168, 83);
+    border-radius:10px;
+    color:white;
+    font-weight: bold;
+    
+    
+}
+button.remove 
+{
+    background-color: #f44336;
+    color:white;
+}
+
+
+#total {
+    margin-top: 100px;
+    
+    font-weight: bold;
+    text-align: center;
+    background-color: chocolate;
+    height:50px;
+    font-size:larger;
+    
+}
+.t3
+{
+    text-align: center;
+    margin-right: 300px;
+    background-color: rgb(5, 65, 5);
+    color:white;
+}
+h1
+{
+    text-align: center;
+    background-color: rgb(12, 71, 12);
+    color:white;
+}
+
+.cart
+{
+    float:right;
+    background-color: #f9f4b7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left:100px;
+    width:500px;
+    
+}
+
+.t1
+{
+    background-color: #f1a9a9;
+}
+
+h3
+{
+   text-align: center;
+   
+}
+h2
+{
+text-align: center;
+background-color: rgb(12, 71, 12);
+color:white;
+}
+
+
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd; /* Add a border to separate menu items */
+    padding-bottom: 5px; /* Add some padding for visual separation */
+}
+
+.item-info {
+    flex-grow: 1; /* Allow the item info to take available space */
+}
+
+.button-container {
+    margin-left: 10px; /* Add margin to separate the button from item info */
+}
+
+button.addToCart {
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4caf50; 
+}
+
+button.addToCart:hover {
+    background-color: #45a049;
+}
+
+/* Add or update the following styles in your existing styles */
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eaa1a1; /* Add a border to separate cart items */
+    padding-bottom: 5px; /* Add some padding for visual separation */
+}
+
+.button-container {
+    margin-left: 10px; /* Add margin to separate the button from item info */
+}
+
+button.removeFromCart {
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #d9534f; /* Red color for "Remove" */
+}
+
+button.removeFromCart:hover {
+    background-color: #c9302c;
+}
+
+
+
+
+

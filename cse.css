@@ -1,0 +1,26 @@
+table th
+{
+    background-color: bisque;
+}
+table
+{
+    border-color: rgb(197, 128, 43);
+    margin-top:60px;
+    width:600px;
+    height:300px;
+
+}
+caption
+{
+    color: rgb(113, 165, 165);
+
+}
+table td
+{
+    padding-left:90px;
+}
+
+table tr:nth-child(odd)
+{
+    background-color: rgb(188, 247, 249);
+}

@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="log.css"> 
+    </head>
+    <body>
+    <form id="registrationForm" onsubmit="return validateForm()">
+    <fieldset class="t1">
+        <h2 align="center">Login Page</h2>
+        <br>
+        <table align="center">
+   <tr>         
+  <td><label for="username">username:</label></td> 
+  <td><input type="text" id="username" name="username" required><span style="color: red;">  *</span></td>
+   </tr>
+   <tr>
+   <td><label for="password">password:</label></td>
+   <td><input type="password" id="password" name="password" required pattern="/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/"><span style="color: red;">  *</span></td> 
+</tr>
+</table>
+<br><br>
+<table align="center" width="100%">
+    <tr>
+        <td align="center"><button type="submit" class="t2">login</button>
+          
+        </td>
+        
+    </tr>
+        
+</table>
+
+<table align="center">
+    <tr>         
+   
+   <td><input type="checkbox" checked="checked">Remember me</td>
+   </tr>
+  
+    <tr><td></td></tr>
+    <tr><td></td></tr>
+    <tr><td></td></tr>
+   <tr>
+   <td><button type="button" class="t4">Cancel</button></td>
+   <td>Forgot <a href="#">password?</a></td>
+    </tr>
+    
+ </table>
+
+
+</fieldset>
+</form>
+
+<script>
+    function validateForm() {
+      var username = document.getElementById('username').value;
+      
+      var password = document.getElementById('password').value;
+
+      var passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
+ 
+      if (username === '' || password === '')
+       {
+        alert('Please fill in all fields');
+        return false;
+      }
+      else if (!password.test(enteredPassword)) 
+        {
+        alert('Invalid password. Please enter correct format.');
+        return false;
+        }
+
+     else
+     {
+      alert('Login successful! Welcome, ' + username + '!');
+        return true; 
+      }
+      
+
+       
+    }
+
+
+  
+  </script>
+
+
+</body>
+</html>
+
+
+
+
+
